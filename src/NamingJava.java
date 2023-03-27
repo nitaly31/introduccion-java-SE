@@ -19,6 +19,13 @@ public class NamingJava {
         int MAX_WIDTH = 9999;
         int MIN_WIDTH = 1;
 
+    // Upper Camel Case = la primera letra de cada palabra es en mayusculas (class)
+        // Lower Camel Case = la primera letra va en minusculas y despues el
+        // resto las primeras letras de cada palabra en mayusculas (variables - metodos)
+
+        //Lower Camel Case
+        String fullName = "Geraldine Meneses";
+        int sizeInCentimeters = 26;
 
     }
 }
