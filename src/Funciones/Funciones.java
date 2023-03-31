@@ -18,16 +18,37 @@ public class Funciones {
 
         System.out.println("PESOS A DOLARES: " + converToDolar( 1000, "COP"));
     }
+    /**
+     * Función: Calcula el área de un circulo.
+     * @param r Valor del radio.
+     * @return Retorna el valor total calculado.
+     * */
     public static double circleArea(double r){
         return Math.PI * Math.pow(r,2);
     }
+    /**
+     * Función: Calcula el área de una esfera.
+     * @param r Valor del radio.
+     * @return Retorna el valor total calculado.
+     * */
     public static double sphereArea (double r){
         return 4 * Math.PI * Math.pow(r,2);
     }
+    /**
+     * Función: Calcula el volumen de una esfera.
+     * @param r Valor del radio.
+     * @return Retorna el valor total calculado.
+     * */
     public static double sphereVolumen (double r){
         return (4/3) * Math.PI * Math.pow(r,3);
     }
-
+    /**
+     * Descripción: Función que especificando su moneda convierte una cantidad de dinero a dólares.
+     *
+     * @param quantity Cantidad de dinero.
+     * @param currency Tipo de moneda: Solo valida MXN o COP.
+     * @return quantity devuelve la cantidad actualizada en dólares.
+     * */
     public static double converToDolar(double quantity, String currency){
         //MXN COP
         switch (currency){
